@@ -1,0 +1,44 @@
+body {
+    background-color: #b7c1ac;
+}
+h1 {
+    font-family: cursive;
+    font-size: 30px;
+}
+p, button, input, .code {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;;
+}
+
+#gameScreen {
+    display: none;
+}
+.initialDiv, .gameDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.initialDiv img {
+    width: 150px;
+}
+.initialDiv input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 136, 136);
+    margin-bottom: 10px
+}
+.initialDiv button {
+    background-color: #f39c12;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+.initialDiv button:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+    transition-duration: 0.2s;
+}

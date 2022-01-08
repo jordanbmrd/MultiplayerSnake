@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MultiSnake</title>
+
+	<link href="./styles.css" rel="stylesheet" />
+</head>
+<body>
+
+	<section>
+		<div>
+			<div id="initialScreen">
+				<div class="initialDiv">
+					<img src="./img/snake.png" alt="Snake" />
+					<h1>MultiSnake</h1>
+					<button
+					type="submit"
+					id="newGameButton">Créer une nouvelle partie</button>
+
+					<br />
+					<p>OU</p>
+					<br />
+
+					<div>
+						<input type="text" placeholder="Entrez le code de la partie" id="gameCodeInput" />
+					</div>
+					<button
+					type="submit"
+					id="joinGameButton">Rejoindre la partie</button>
+				</div>
+			</div>
+			
+			<div id="gameScreen">
+				<div class="gameDiv">
+
+					<h1 class="code">Code : <span id="gameCodeDisplay"></span></h1>
+					<canvas id="canvas"></canvas>
+				
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
