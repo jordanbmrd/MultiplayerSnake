@@ -8,5 +8,4 @@ Pour jouer au jeu (2 joueurs) : https://github.com/jordanbmrd/MultiplayerSnake/c
 - Node.js
 - Framework Socket.io
 
-> Client hébergé sur Github
-Serveur hébergé sur Heroku
+> Client hébergé sur Github\nServeur hébergé sur Heroku
