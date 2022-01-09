@@ -2,7 +2,7 @@ const BG_COLOR = '#231f20';
 const SNAKE_COLOR = '#c2c2c2';
 const FOOD_COLOR = '#e66916';
 
-socket = io('localhost:3000', { transports : ['websocket'] });
+socket = io('https://multisnake-server.herokuapp.com/', { transports : ['websocket'] });
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
